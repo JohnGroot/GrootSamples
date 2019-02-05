@@ -165,6 +165,9 @@ struct FTutorialTemplateCustomData : public FCatalogCustomData
 
 DECLARE_DELEGATE_OneParam(FTutorialTemplateUpdatedEvent, class UTutorialTemplate&);
 
+/**
+* Data Asset class used to spawn Tutorial Items based on the parameters defined in instances of this class in Content
+*/
 UCLASS(BlueprintType, HideCategories = Item)
 class GAME_API UTutorialTemplate : public UItemTemplate
 {
