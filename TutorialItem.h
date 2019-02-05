@@ -23,6 +23,9 @@ struct FTutorialInstanceCustomData : public FItemInstanceCustomData
 
 };
 
+/**
+* Item class created from a Tutorial Template & used to store the track the progress of the active tutorial
+*/
 UCLASS()
 class GAME_API UTutorialItem : public UItem
 {
